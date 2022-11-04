@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    position: fixed;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.order {
+    padding-top: 1px;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/home-bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vmin;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.home h2 {
+    color: white;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.home p {
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-weight: 600;
+}
+
+.home .home-menu {
+    margin-top: 10px;
+    color: gold;
+    border: 2px solid gold;
+    width: 300px;
+    height: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-top: 8px;
+}
+
+.articles {
+    background-color: gold;
+    padding-top: 80px;
+}
+
+.articles img {
+    width: 500px;
+}
+
+.special {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.special figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+}
+
+.special figcaption {
+    width: 400px;
+    padding-top: 30px;
+}
