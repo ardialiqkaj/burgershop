@@ -20,6 +20,26 @@ header h1 {
     font-weight: 900;
 }
 
+header a:link {
+    text-decoration: none;
+    color: black;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header a:active {
+    text-decoration: none;
+    color: black;
+}
+
 li {
     list-style: none;
 }
@@ -50,6 +70,26 @@ li {
     background-color: black;
 }
 
+.home a:link {
+    text-decoration: none;
+    color: gold;
+}
+
+.home a:visited {
+    text-decoration: none;
+    color: gold;
+}
+
+.home a:hover {
+    text-decoration: none;
+    color: gold;
+}
+
+.home a:active {
+    text-decoration: none;
+    color: gold;
+}
+
 .home h2 {
     color: white;
     font-size: 46px;
@@ -77,19 +117,47 @@ li {
 .articles {
     background-color: gold;
     padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
 }
 
-.articles img {
-    width: 500px;
+.articles a:link {
+    text-decoration: none;
+    color: black;
 }
 
-.special {
+.articles a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.articles a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.articles a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.articles article {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.special figure {
+.articles img {
+    width: 500px;
+    max-height: 320px;
+    object-fit: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+.articles figure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,7 +165,89 @@ li {
     text-align: center;
 }
 
-.special figcaption {
+.articles h3 {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.articles figcaption {
     width: 400px;
+    height: 60px;
     padding-top: 30px;
+    font-weight: 500;
+}
+
+.articles a {
+    margin-top: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 4px;
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    height: 120px;
+    background-color: black;
+    color: gold;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    padding-left: 15px;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: gold;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: gold;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: gold;
+}
+
+footer a:active {
+    text-decoration: none;
+    color: gold;
+}
+
+.social-media svg {
+    background-color: gold;
+    color: black;
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+/*Menu styling*/
+
+.menu {
+    padding-top: 130px;
+    background-color: gold;
+}
+
+.menu img {
+    width: 500px;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.menu section {
+    display: flex;
+    justify-content: center;
 }
